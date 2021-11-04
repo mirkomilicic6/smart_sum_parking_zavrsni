@@ -34,8 +34,10 @@ KORACI ZA KLONIRANJE:
 
 15. NAPOMENA: pri uvozu baze iz koraka naprijed phpmyadmin izbaci gresku da baza events već postoji, ali to nije problem
 
-16. seedanjem smo napravili super_admin korisnika koji ima sve ovlasti, korisnički MAIL: admin@example.com 
-                                                                                   PASSWORD: password
+16. php artisan serve (naredba u terminalu za pokretanje aplikacije na http://localhost:8000/)
+
+17. seedanjem smo napravili super_admin korisnika koji ima sve ovlasti, možemo se ulogirati sa sljedećim podacima -> korisnički MAIL: admin@example.com 
+                                                                                                                                      PASSWORD: password
 
 
 
