@@ -1,0 +1,66 @@
+$result = Event::where('id_parking_lot', '1')->latest()->first();
+$result = DB::table('lots')
+                        ->where('id_parking_lot', '=', '2')
+                        ->where('occupied', '=', '1')
+                        ->get()
+                        ->count();
+$result = DB::table('lots')
+                        ->where('id_parking_lot', '=', '2')
+                        ->where('occupied', '=', '1')
+                        ->get()
+                        ->count();
+$result = DB::table('lots')
+                        ->where('id_parking_lot', '=', '2')
+                        ->where('occupied', '=', '1')
+                        ->get()
+                        ->count();
+$result = DB::table('lots')
+                        ->where('id_parking_lot', '=', '2')
+                        ->where('occupied', '=', '1')
+                        ->get()
+                        ->count();
+$result = DB::table('lots')
+                        ->where('id_parking_lot', '=', '2')
+                        ->where('occupied', '=', '1')
+                        ->get()
+                        ->count();
+$result = DB::table('lots')
+                        ->where('id_parking_lot', '=', '2')
+                        ->where('occupied', '=', '1')
+                        ->get()
+                        ->count();
+$result = DB::table('lots')->where('id_parking_lot', '=', '2')->count();
+$result = DB::table('lots')->where('id_parking_lot', '=', '2')->count();
+$result = DB::table('lots')->where('id_parking_lot', '=', '2')->count();
+$result = [
+			"DB::table('lots')->where('id_parking_lot', '=', '2')->count()"]
+$result = [
+			"DB::table('lots')->where('id_parking_lot', '=', '2')->count()"]
+$result = [
+			a=>"DB::table('lots')->where('id_parking_lot', '=', '2')->count()"]
+$result = [
+			'a'=>"DB::table('lots')->where('id_parking_lot', '=', '2')->count()"]
+$result = [
+			'a'=>"DB::table('lots')->where('id_parking_lot', '=', '2')",
+			'b' =>"DB::table('lots')->where('id_parking_lot', '=', '2')"
+			]
+$result = [
+			'a'=>"DB::table('lots')->where('id_parking_lot', '=', '2')",
+			'b' =>"DB::table('lots')->where('id_parking_lot', '=', '2')"
+			]
+$result = [
+			'a'=>"DB::table('lots')->where('id_parking_lot', '=', '1')",
+			'b' =>"DB::table('lots')->where('id_parking_lot', '=', '2')"
+			]
+$result = [
+			'a'=>"DB::table('lots')->where('id_parking_lot', '=', '1')",
+			'b' =>"DB::table('lots')->where('id_parking_lot', '=', '2')"
+			]
+$result = [
+			'a' =>Event::where('id_parking_lot', '1')->latest()->first();,
+			'b' =>Event::where('id_parking_lot', '2')->latest()->first();
+			]
+$result = [
+			'a' =>Event::where('id_parking_lot', '1')->latest()->first(),
+			'b' =>Event::where('id_parking_lot', '2')->latest()->first()
+			]
