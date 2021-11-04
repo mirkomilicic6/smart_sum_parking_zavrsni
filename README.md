@@ -1,3 +1,9 @@
+Aplikacija rađena kao završni rad na studiju Informatike u Orašju, tema je "Implementacija programske podrške za praćenje aktivnosti parking senzora na pametnom parkingu"
+
+Aplikaciju izradio student Mirko Miličić te će ista u dogledno vrijeme biti postavljena i na studentski server.
+
+KORACI ZA KLONIRANJE:
+
 1. kreirati folder gdje ćemo klonirati aplikaciju
 
 2. otvoriti folder u terminalu
