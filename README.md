@@ -32,7 +32,7 @@ KORACI ZA KLONIRANJE:
 
 14. za ispravan rad aplikacije skinuti .zip sa github-a i izdvojiti kopiju sql baze pod nazivom "zavrsni_db.sql", te istu importati na phpmyadmin u našu novu bazu
 
-15. NAPOMENA: pri uvozu baze iz koraka naprijed phpmyadmin izbaci gresku da baza events već postoji, ali to nije problem
+15. NAPOMENA: pri uvozu baze iz koraka 14. phpmyadmin izbaci gresku da baza events već postoji, ali to nije problem
 
 16. php artisan serve (naredba u terminalu za pokretanje aplikacije na http://localhost:8000/)
 
