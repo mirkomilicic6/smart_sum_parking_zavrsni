@@ -34,9 +34,13 @@ KORACI ZA KLONIRANJE:
 
 15. NAPOMENA: pri uvozu baze iz koraka 14. phpmyadmin izbaci gresku da baza events već postoji, ali to nije problem
 
-16. php artisan serve (naredba u terminalu za pokretanje aplikacije na http://localhost:8000/)
+16. otvoriti client.js file (nalazi se u glavnoj aplikaciji prije composer.json) u visual studio code-u i pod database također staviti naziv baze koju smo kreirali u koraku 10. te nakon toga spremiti file
 
-17. seedanjem smo napravili super_admin korisnika koji ima sve ovlasti, možemo se ulogirati sa sljedećim podacima ->  MAIL: admin@example.com 
+17. node client.js (upisati u terminalu, naredba za pokretanje skripte koja sluša socket.io sa sveučilišnog servera i sprema podatke u bazu)
+
+18. php artisan serve (naredba u terminalu za pokretanje aplikacije na http://localhost:8000/)
+
+19. seedanjem smo napravili super_admin korisnika koji ima sve ovlasti, možemo se ulogirati sa sljedećim podacima ->  MAIL: admin@example.com 
                                                                                                                       PASSWORD: password
 
 
